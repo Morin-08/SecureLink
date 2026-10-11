@@ -23970,12 +23970,31 @@
     }
   });
 
+  // node_modules/lucide-react/dist/esm/icons/lock-keyhole.mjs
+  var __iconData7, LockKeyhole;
+  var init_lock_keyhole = __esm({
+    "node_modules/lucide-react/dist/esm/icons/lock-keyhole.mjs"() {
+      init_createLucideIcon();
+      __iconData7 = {
+        name: "lock-keyhole",
+        size: 24,
+        node: [
+          ["circle", { cx: "12", cy: "16", r: "1", key: "1au0dj" }],
+          ["rect", { x: "3", y: "10", width: "18", height: "12", rx: "2", key: "6s8ecr" }],
+          ["path", { d: "M7 10V7a5 5 0 0 1 10 0v3", key: "1pqi11" }]
+        ]
+      };
+      __iconData7.node;
+      LockKeyhole = createLucideIcon(__iconData7);
+    }
+  });
+
   // node_modules/lucide-react/dist/esm/icons/lock.mjs
-  var __iconData7, Lock;
+  var __iconData8, Lock;
   var init_lock = __esm({
     "node_modules/lucide-react/dist/esm/icons/lock.mjs"() {
       init_createLucideIcon();
-      __iconData7 = {
+      __iconData8 = {
         name: "lock",
         size: 24,
         node: [
@@ -23983,17 +24002,17 @@
           ["path", { d: "M7 11V7a5 5 0 0 1 10 0v4", key: "fwvmzm" }]
         ]
       };
-      __iconData7.node;
-      Lock = createLucideIcon(__iconData7);
+      __iconData8.node;
+      Lock = createLucideIcon(__iconData8);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/qr-code.mjs
-  var __iconData8, QrCode;
+  var __iconData9, QrCode;
   var init_qr_code = __esm({
     "node_modules/lucide-react/dist/esm/icons/qr-code.mjs"() {
       init_createLucideIcon();
-      __iconData8 = {
+      __iconData9 = {
         name: "qr-code",
         size: 24,
         node: [
@@ -24011,17 +24030,17 @@
           ["path", { d: "M12 21v-1", key: "1880an" }]
         ]
       };
-      __iconData8.node;
-      QrCode = createLucideIcon(__iconData8);
+      __iconData9.node;
+      QrCode = createLucideIcon(__iconData9);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/rotate-ccw.mjs
-  var __iconData9, RotateCcw;
+  var __iconData10, RotateCcw;
   var init_rotate_ccw = __esm({
     "node_modules/lucide-react/dist/esm/icons/rotate-ccw.mjs"() {
       init_createLucideIcon();
-      __iconData9 = {
+      __iconData10 = {
         name: "rotate-ccw",
         size: 24,
         node: [
@@ -24029,17 +24048,17 @@
           ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
         ]
       };
-      __iconData9.node;
-      RotateCcw = createLucideIcon(__iconData9);
+      __iconData10.node;
+      RotateCcw = createLucideIcon(__iconData10);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/shield-check.mjs
-  var __iconData10, ShieldCheck;
+  var __iconData11, ShieldCheck;
   var init_shield_check = __esm({
     "node_modules/lucide-react/dist/esm/icons/shield-check.mjs"() {
       init_createLucideIcon();
-      __iconData10 = {
+      __iconData11 = {
         name: "shield-check",
         size: 24,
         node: [
@@ -24053,17 +24072,17 @@
           ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
         ]
       };
-      __iconData10.node;
-      ShieldCheck = createLucideIcon(__iconData10);
+      __iconData11.node;
+      ShieldCheck = createLucideIcon(__iconData11);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/triangle-alert.mjs
-  var __iconData11, TriangleAlert;
+  var __iconData12, TriangleAlert;
   var init_triangle_alert = __esm({
     "node_modules/lucide-react/dist/esm/icons/triangle-alert.mjs"() {
       init_createLucideIcon();
-      __iconData11 = {
+      __iconData12 = {
         name: "triangle-alert",
         size: 24,
         node: [
@@ -24079,17 +24098,17 @@
         ],
         aliases: ["alert-triangle"]
       };
-      __iconData11.node;
-      TriangleAlert = createLucideIcon(__iconData11);
+      __iconData12.node;
+      TriangleAlert = createLucideIcon(__iconData12);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/upload.mjs
-  var __iconData12, Upload;
+  var __iconData13, Upload;
   var init_upload = __esm({
     "node_modules/lucide-react/dist/esm/icons/upload.mjs"() {
       init_createLucideIcon();
-      __iconData12 = {
+      __iconData13 = {
         name: "upload",
         size: 24,
         node: [
@@ -24098,17 +24117,17 @@
           ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }]
         ]
       };
-      __iconData12.node;
-      Upload = createLucideIcon(__iconData12);
+      __iconData13.node;
+      Upload = createLucideIcon(__iconData13);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/wifi.mjs
-  var __iconData13, Wifi;
+  var __iconData14, Wifi;
   var init_wifi = __esm({
     "node_modules/lucide-react/dist/esm/icons/wifi.mjs"() {
       init_createLucideIcon();
-      __iconData13 = {
+      __iconData14 = {
         name: "wifi",
         size: 24,
         node: [
@@ -24118,8 +24137,8 @@
           ["path", { d: "M8.5 16.429a5 5 0 0 1 7 0", key: "1bycff" }]
         ]
       };
-      __iconData13.node;
-      Wifi = createLucideIcon(__iconData13);
+      __iconData14.node;
+      Wifi = createLucideIcon(__iconData14);
     }
   });
 
@@ -24134,6 +24153,7 @@
       init_download();
       init_file_text();
       init_key_round();
+      init_lock_keyhole();
       init_lock();
       init_qr_code();
       init_rotate_ccw();
@@ -24168,7 +24188,12 @@
           ["deriveKey"]
         );
         return window.crypto.subtle.deriveKey(
-          { name: "PBKDF2", salt: enc.encode("SecureLinkFixedSalt"), iterations: 1e5, hash: "SHA-256" },
+          {
+            name: "PBKDF2",
+            salt: enc.encode("SecureLinkFixedSalt"),
+            iterations: 1e5,
+            hash: "SHA-256"
+          },
           keyMaterial,
           { name: "AES-GCM", length: 256 },
           false,
@@ -24185,11 +24210,35 @@
         const i = Math.floor(Math.log(bytes) / Math.log(1024));
         return `${(bytes / Math.pow(1024, i)).toFixed(1)} ${units[i]}`;
       }
+      var PIN_STORAGE_KEY = "securelink_app_pin";
+      function getStoredPin() {
+        return localStorage.getItem(PIN_STORAGE_KEY);
+      }
+      function setStoredPin(pin) {
+        localStorage.setItem(PIN_STORAGE_KEY, pin);
+      }
+      function clearStoredPin() {
+        localStorage.removeItem(PIN_STORAGE_KEY);
+      }
       function PhoneShell({ children }) {
         return /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-h-screen w-full flex items-center justify-center p-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-full max-w-sm bg-white rounded-[28px] shadow-[0_20px_50px_rgba(20,40,30,0.12)] border border-[#E3E9E6] overflow-hidden" }, children));
       }
       function TopBar({ onBack, onRestart, label }) {
-        return /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between px-5 pt-5 pb-3" }, onBack ? /* @__PURE__ */ import_react4.default.createElement("button", { onClick: onBack, className: "w-8 h-8 flex items-center justify-center rounded-full text-[#5B6B64] hover:bg-[#F0F3F1]" }, /* @__PURE__ */ import_react4.default.createElement(ArrowLeft, { size: 18 })) : /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-8" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-xs font-semibold tracking-wide text-[#5B6B64] uppercase" }, label), /* @__PURE__ */ import_react4.default.createElement("button", { onClick: onRestart, className: "w-8 h-8 flex items-center justify-center rounded-full text-[#5B6B64] hover:bg-[#F0F3F1]" }, /* @__PURE__ */ import_react4.default.createElement(RotateCcw, { size: 16 })));
+        return /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between px-5 pt-5 pb-3" }, onBack ? /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: onBack,
+            className: "w-8 h-8 flex items-center justify-center rounded-full text-[#5B6B64] hover:bg-[#F0F3F1]"
+          },
+          /* @__PURE__ */ import_react4.default.createElement(ArrowLeft, { size: 18 })
+        ) : /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-8" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-xs font-semibold tracking-wide text-[#5B6B64] uppercase" }, label), /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: onRestart,
+            className: "w-8 h-8 flex items-center justify-center rounded-full text-[#5B6B64] hover:bg-[#F0F3F1]"
+          },
+          /* @__PURE__ */ import_react4.default.createElement(RotateCcw, { size: 16 })
+        ));
       }
       function PrimaryButton({ children, onClick, disabled, className = "" }) {
         return /* @__PURE__ */ import_react4.default.createElement(
@@ -24226,12 +24275,26 @@
         const [progress, setProgress] = (0, import_react4.useState)(0);
         const [incomingFile, setIncomingFile] = (0, import_react4.useState)(null);
         const [wsReady, setWsReady] = (0, import_react4.useState)(false);
+        const [hasPin, setHasPin] = (0, import_react4.useState)(false);
+        const [locked, setLocked] = (0, import_react4.useState)(false);
+        const [pinEntry, setPinEntry] = (0, import_react4.useState)("");
+        const [pinError, setPinError] = (0, import_react4.useState)("");
+        const [newPin, setNewPin] = (0, import_react4.useState)("");
+        const [confirmPin, setConfirmPin] = (0, import_react4.useState)("");
+        const [pinSetupError, setPinSetupError] = (0, import_react4.useState)("");
         const wsRef = (0, import_react4.useRef)(null);
         const roleRef = (0, import_react4.useRef)(null);
         const cryptoKeyRef = (0, import_react4.useRef)(null);
         const lastSubmittedCodeRef = (0, import_react4.useRef)("");
         const progressTimerRef = (0, import_react4.useRef)(null);
         const fileInputRef = (0, import_react4.useRef)(null);
+        (0, import_react4.useEffect)(() => {
+          const existingPin = getStoredPin();
+          if (existingPin) {
+            setHasPin(true);
+            setLocked(true);
+          }
+        }, []);
         function animateProgressThen(cb) {
           setProgress(0);
           clearInterval(progressTimerRef.current);
@@ -24282,12 +24345,21 @@
               try {
                 const encBuf = base64ToBuf(data.data);
                 const iv = new Uint8Array(base64ToBuf(data.iv));
-                const decrypted = await window.crypto.subtle.decrypt({ name: "AES-GCM", iv }, cryptoKeyRef.current, encBuf);
+                const decrypted = await window.crypto.subtle.decrypt(
+                  { name: "AES-GCM", iv },
+                  cryptoKeyRef.current,
+                  encBuf
+                );
                 const hashHex = await sha256Hex(decrypted);
                 const ok = hashHex === data.hash;
                 const blob = new Blob([decrypted]);
                 const url = URL.createObjectURL(blob);
-                setIncomingFile({ name: data.filename, url, size: decrypted.byteLength, integrityOk: ok });
+                setIncomingFile({
+                  name: data.filename,
+                  url,
+                  size: decrypted.byteLength,
+                  integrityOk: ok
+                });
                 animateProgressThen(() => setStep("complete"));
               } catch (e) {
                 setIncomingFile({ name: data.filename, error: true });
@@ -24341,11 +24413,44 @@
         }
         function handleVerifyClick() {
           lastSubmittedCodeRef.current = codeInput;
-          wsRef.current.send(JSON.stringify({
-            type: "verify-code",
-            code: codeInput,
-            deviceName: myDeviceName || "Unnamed device"
-          }));
+          wsRef.current.send(
+            JSON.stringify({
+              type: "verify-code",
+              code: codeInput,
+              deviceName: myDeviceName || "Unnamed device"
+            })
+          );
+        }
+        function handleUnlock() {
+          const stored = getStoredPin();
+          if (pinEntry === stored) {
+            setLocked(false);
+            setPinEntry("");
+            setPinError("");
+          } else {
+            setPinError("Incorrect PIN \u2014 try again.");
+            setPinEntry("");
+          }
+        }
+        function handleSetPin() {
+          if (newPin.length !== 4) {
+            setPinSetupError("PIN must be 4 digits.");
+            return;
+          }
+          if (newPin !== confirmPin) {
+            setPinSetupError("PINs don't match.");
+            return;
+          }
+          setStoredPin(newPin);
+          setHasPin(true);
+          setNewPin("");
+          setConfirmPin("");
+          setPinSetupError("");
+          setStep("home");
+        }
+        function handleRemovePin() {
+          clearStoredPin();
+          setHasPin(false);
         }
         (0, import_react4.useEffect)(() => {
           if (step !== "transfer" || role !== "send" || !selectedFile) return;
@@ -24354,22 +24459,119 @@
             const fileBuf = await selectedFile.arrayBuffer();
             const hash = await sha256Hex(fileBuf);
             const iv = window.crypto.getRandomValues(new Uint8Array(12));
-            const encrypted = await window.crypto.subtle.encrypt({ name: "AES-GCM", iv }, cryptoKeyRef.current, fileBuf);
+            const encrypted = await window.crypto.subtle.encrypt(
+              { name: "AES-GCM", iv },
+              cryptoKeyRef.current,
+              fileBuf
+            );
             if (cancelled) return;
-            wsRef.current.send(JSON.stringify({
-              type: "file",
-              filename: selectedFile.name,
-              data: bufToBase64(encrypted),
-              iv: bufToBase64(iv),
-              hash
-            }));
+            wsRef.current.send(
+              JSON.stringify({
+                type: "file",
+                filename: selectedFile.name,
+                data: bufToBase64(encrypted),
+                iv: bufToBase64(iv),
+                hash
+              })
+            );
           })();
           animateProgressThen(() => setStep("complete"));
           return () => {
             cancelled = true;
           };
         }, [step]);
-        return /* @__PURE__ */ import_react4.default.createElement(PhoneShell, null, step === "home" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-10 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 30, className: "text-[#0B7A5F]", strokeWidth: 2 })), /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-xl font-bold text-[#16241E] mb-2" }, "SecureLink"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#5B6B64] leading-relaxed mb-6" }, "Direct, peer-to-peer file sharing over shared Wi-Fi. Every transfer is paired and encrypted."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-left space-y-3 mb-7" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[13px] font-bold text-[#16241E] flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(KeyRound, { size: 13, className: "text-[#0B7A5F]" }), " Device pairing required"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, "Verified with a real 6-digit code before any file moves.")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[13px] font-bold text-[#16241E] flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(Lock, { size: 13, className: "text-[#0B7A5F]" }), " Zero-fallback encryption"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, "AES-256-GCM, derived from the pairing code, verified with SHA-256."))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "space-y-2.5" }, /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: chooseSend }, "Send File"), /* @__PURE__ */ import_react4.default.createElement(SecondaryButton, { onClick: chooseReceive }, "Receive File"))), step === "send" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(TopBar, { onBack: () => setStep("home"), onRestart: reset, label: "Send a File" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement("input", { type: "file", ref: fileInputRef, onChange: handleFilePicked, className: "hidden" }), /* @__PURE__ */ import_react4.default.createElement(
+        if (locked) {
+          return /* @__PURE__ */ import_react4.default.createElement(PhoneShell, null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-10 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(LockKeyhole, { size: 30, className: "text-[#0B7A5F]", strokeWidth: 2 })), /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-xl font-bold text-[#16241E] mb-2" }, "SecureLink Locked"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#5B6B64] leading-relaxed mb-6" }, "Enter your 4-digit PIN to continue."), /* @__PURE__ */ import_react4.default.createElement(
+            "input",
+            {
+              type: "password",
+              inputMode: "numeric",
+              maxLength: 4,
+              value: pinEntry,
+              onChange: (e) => setPinEntry(e.target.value.replace(/\D/g, "").slice(0, 4)),
+              placeholder: "\u2022\u2022\u2022\u2022",
+              className: "w-full text-center text-3xl font-bold tracking-[0.3em] tabular-nums border border-[#E3E9E6] rounded-xl py-4 mb-3 focus:outline-none focus:border-[#10B981]"
+            }
+          ), pinError && /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs font-semibold text-[#B3261E] mb-3" }, pinError), /* @__PURE__ */ import_react4.default.createElement(
+            PrimaryButton,
+            {
+              disabled: pinEntry.length !== 4,
+              onClick: handleUnlock
+            },
+            "Unlock"
+          )));
+        }
+        return /* @__PURE__ */ import_react4.default.createElement(PhoneShell, null, step === "home" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-10 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 30, className: "text-[#0B7A5F]", strokeWidth: 2 })), /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-xl font-bold text-[#16241E] mb-2" }, "SecureLink"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#5B6B64] leading-relaxed mb-6" }, "Direct, peer-to-peer file sharing over shared Wi-Fi. Every transfer is paired and encrypted."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-left space-y-3 mb-7" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[13px] font-bold text-[#16241E] flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(KeyRound, { size: 13, className: "text-[#0B7A5F]" }), " Device pairing required"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, "Verified with a real 6-digit code before any file moves.")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[13px] font-bold text-[#16241E] flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(Lock, { size: 13, className: "text-[#0B7A5F]" }), " Zero-fallback encryption"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, "AES-256-GCM, derived from the pairing code, verified with SHA-256."))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "space-y-2.5" }, /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: chooseSend }, "Send File"), /* @__PURE__ */ import_react4.default.createElement(SecondaryButton, { onClick: chooseReceive }, "Receive File")), /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => setStep(hasPin ? "pinManage" : "pinSetup"),
+            className: "w-full text-xs font-semibold text-[#5B6B64] py-2 mt-5 flex items-center justify-center gap-1.5"
+          },
+          /* @__PURE__ */ import_react4.default.createElement(LockKeyhole, { size: 12 }),
+          " ",
+          hasPin ? "App Lock: On" : "Set App Lock (optional)"
+        )), step === "pinSetup" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
+          TopBar,
+          {
+            onBack: () => setStep("home"),
+            onRestart: reset,
+            label: "Set App Lock"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-14 h-14 mx-auto mb-4 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(LockKeyhole, { size: 24, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "Create a 4-digit PIN"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-5" }, "This locks the app on this device only \u2014 it does not affect file encryption."), /* @__PURE__ */ import_react4.default.createElement(
+          "input",
+          {
+            type: "password",
+            inputMode: "numeric",
+            maxLength: 4,
+            value: newPin,
+            onChange: (e) => setNewPin(e.target.value.replace(/\D/g, "").slice(0, 4)),
+            placeholder: "New PIN",
+            className: "w-full text-center text-2xl font-bold tracking-[0.3em] tabular-nums border border-[#E3E9E6] rounded-xl py-3 mb-3 focus:outline-none focus:border-[#10B981]"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement(
+          "input",
+          {
+            type: "password",
+            inputMode: "numeric",
+            maxLength: 4,
+            value: confirmPin,
+            onChange: (e) => setConfirmPin(e.target.value.replace(/\D/g, "").slice(0, 4)),
+            placeholder: "Confirm PIN",
+            className: "w-full text-center text-2xl font-bold tracking-[0.3em] tabular-nums border border-[#E3E9E6] rounded-xl py-3 mb-3 focus:outline-none focus:border-[#10B981]"
+          }
+        ), pinSetupError && /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs font-semibold text-[#B3261E] mb-3" }, pinSetupError), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: handleSetPin }, "Save PIN"))), step === "pinManage" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
+          TopBar,
+          {
+            onBack: () => setStep("home"),
+            onRestart: reset,
+            label: "App Lock"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-14 h-14 mx-auto mb-4 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(LockKeyhole, { size: 24, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "App Lock is On"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-6" }, "A PIN is required each time this app loads."), /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => {
+              handleRemovePin();
+              setStep("home");
+            },
+            className: "w-full py-3 rounded-xl font-semibold text-sm bg-[#FBEAEA] text-[#B3261E] hover:bg-[#F6DADA]"
+          },
+          "Turn Off App Lock"
+        ))), step === "send" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
+          TopBar,
+          {
+            onBack: () => setStep("home"),
+            onRestart: reset,
+            label: "Send a File"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement(
+          "input",
+          {
+            type: "file",
+            ref: fileInputRef,
+            onChange: handleFilePicked,
+            className: "hidden"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement(
           "button",
           {
             onClick: () => fileInputRef.current?.click(),
@@ -24378,7 +24580,29 @@
           /* @__PURE__ */ import_react4.default.createElement(Upload, { size: 26, className: "text-[#0B7A5F]" }),
           /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-sm font-semibold text-[#16241E]" }, "Click to choose a file"),
           /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-xs text-[#5B6B64]" }, "or drag and drop it here")
-        ), selectedFile && /* @__PURE__ */ import_react4.default.createElement("div", { className: "mt-4 border border-[#E3E9E6] rounded-xl p-3.5 flex items-center gap-3" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-9 h-9 rounded-lg bg-[#ECFDF5] flex items-center justify-center shrink-0" }, /* @__PURE__ */ import_react4.default.createElement(FileText, { size: 16, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-w-0" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E] truncate" }, selectedFile.name), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64]" }, formatBytes(selectedFile.size), " \xB7 ", selectedFile.type || "Unknown type"))), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { className: "mt-6", disabled: !selectedFile, onClick: handleContinueFromSend }, "Continue"))), step === "pairing" && role === "send" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(TopBar, { onBack: () => setStep("send"), onRestart: reset, label: "Device Pairing" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "Waiting for a device"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-5" }, "Share this code with the receiving device."), !showQr ? /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#ECFDF5] border border-[#CDEEE1] rounded-2xl py-6 text-center mb-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[11px] font-bold uppercase tracking-wide text-[#0B7A5F] mb-2" }, "Verification code"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-4xl font-bold tracking-[0.35em] text-[#16241E] tabular-nums" }, pairingCode || "------")) : /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#F5FBF8] border border-[#CDEEE1] rounded-2xl py-8 flex flex-col items-center mb-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-28 h-28 bg-white border border-[#CDEEE1] rounded-xl flex items-center justify-center mb-3" }, /* @__PURE__ */ import_react4.default.createElement(QrCode, { size: 64, className: "text-[#16241E]" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] text-center px-4" }, "Showing code as a placeholder \u2014 QR scanning isn't wired up in this demo, share the digits instead.")), /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => setShowQr((v) => !v), className: "w-full text-xs font-semibold text-[#0B7A5F] py-2 mb-5" }, showQr ? "Show the 6-digit code" : "Show as QR (placeholder)"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-center gap-2 text-xs text-[#5B6B64]" }, /* @__PURE__ */ import_react4.default.createElement(LoaderCircle, { size: 14, className: "animate-spin text-[#0B7A5F]" }), " Waiting for the other device to enter this code\u2026"))), step === "pairing" && role === "receive" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(TopBar, { onBack: reset, onRestart: reset, label: "Device Pairing" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "Connect to a device"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-5" }, "Enter the code shown on the sending device."), /* @__PURE__ */ import_react4.default.createElement(
+        ), selectedFile && /* @__PURE__ */ import_react4.default.createElement("div", { className: "mt-4 border border-[#E3E9E6] rounded-xl p-3.5 flex items-center gap-3" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-9 h-9 rounded-lg bg-[#ECFDF5] flex items-center justify-center shrink-0" }, /* @__PURE__ */ import_react4.default.createElement(FileText, { size: 16, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-w-0" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E] truncate" }, selectedFile.name), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64]" }, formatBytes(selectedFile.size), " \xB7", " ", selectedFile.type || "Unknown type"))), /* @__PURE__ */ import_react4.default.createElement(
+          PrimaryButton,
+          {
+            className: "mt-6",
+            disabled: !selectedFile,
+            onClick: handleContinueFromSend
+          },
+          "Continue"
+        ))), step === "pairing" && role === "send" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
+          TopBar,
+          {
+            onBack: () => setStep("send"),
+            onRestart: reset,
+            label: "Device Pairing"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "Waiting for a device"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-5" }, "Share this code with the receiving device."), !showQr ? /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#ECFDF5] border border-[#CDEEE1] rounded-2xl py-6 text-center mb-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[11px] font-bold uppercase tracking-wide text-[#0B7A5F] mb-2" }, "Verification code"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-4xl font-bold tracking-[0.35em] text-[#16241E] tabular-nums" }, pairingCode || "------")) : /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#F5FBF8] border border-[#CDEEE1] rounded-2xl py-8 flex flex-col items-center mb-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-28 h-28 bg-white border border-[#CDEEE1] rounded-xl flex items-center justify-center mb-3" }, /* @__PURE__ */ import_react4.default.createElement(QrCode, { size: 64, className: "text-[#16241E]" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] text-center px-4" }, "Showing code as a placeholder \u2014 QR scanning isn't wired up in this demo, share the digits instead.")), /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => setShowQr((v) => !v),
+            className: "w-full text-xs font-semibold text-[#0B7A5F] py-2 mb-5"
+          },
+          showQr ? "Show the 6-digit code" : "Show as QR (placeholder)"
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-center gap-2 text-xs text-[#5B6B64]" }, /* @__PURE__ */ import_react4.default.createElement(LoaderCircle, { size: 14, className: "animate-spin text-[#0B7A5F]" }), " ", "Waiting for the other device to enter this code\u2026"))), step === "pairing" && role === "receive" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(TopBar, { onBack: reset, onRestart: reset, label: "Device Pairing" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "Connect to a device"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-5" }, "Enter the code shown on the sending device."), /* @__PURE__ */ import_react4.default.createElement(
           "input",
           {
             value: myDeviceName,
@@ -24394,7 +24618,53 @@
             placeholder: "000000",
             className: "w-full text-center text-3xl font-bold tracking-[0.3em] tabular-nums border border-[#E3E9E6] rounded-xl py-4 mb-3 focus:outline-none focus:border-[#10B981]"
           }
-        ), verifyError && /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs font-semibold text-[#B3261E] mb-3 text-center" }, verifyError), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { disabled: codeInput.length !== 6 || !wsReady, onClick: handleVerifyClick }, "Verify"))), step === "warning" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(TopBar, { onBack: () => setStep("pairing"), onRestart: reset, label: "Network Check" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#FEF3E2] border border-[#F5D9A8] rounded-2xl p-5 text-center mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-11 h-11 mx-auto mb-3 rounded-full bg-[#FDE8C8] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(TriangleAlert, { size: 20, className: "text-[#A45A00]" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-bold text-[#8A5A00] mb-1.5" }, "Unsafe network detected"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#8A5A00] leading-relaxed" }, "Simulated for this demo \u2014 a real deployment would check actual network conditions. On an open network, nearby devices may be able to see traffic.")), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-start gap-2.5 bg-[#F0F3F1] rounded-xl p-3.5 mb-6" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 16, className: "text-[#0B7A5F] shrink-0 mt-0.5" }), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] leading-relaxed" }, "SecureLink still requires device verification and end-to-end encryption regardless \u2014 this warning does not skip that step.")), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: () => setStep("verify") }, "Continue to Device Verification"))), step === "verify" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(TopBar, { onBack: () => setStep("pairing"), onRestart: reset, label: "Verify Device" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-14 h-14 mx-auto mb-4 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 24, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "Is this the device you want to connect to?"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-5" }, "Confirm the name and code match what's shown on the other side."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border border-[#E3E9E6] rounded-xl p-4 mb-6 text-left" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E] mb-2" }, peerLabel || "Unknown device"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[11px] font-bold uppercase tracking-wide text-[#5B6B64] mb-1" }, "Verification code"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-2xl font-bold tracking-[0.3em] text-[#16241E] tabular-nums" }, role === "send" ? pairingCode : codeInput)), /* @__PURE__ */ import_react4.default.createElement("div", { className: "space-y-2.5" }, /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: () => setStep("verified") }, "Confirm Device"), /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => setStep("pairing"), className: "w-full py-3 rounded-xl font-semibold text-sm bg-[#FBEAEA] text-[#B3261E] hover:bg-[#F6DADA]" }, "Cancel")))), step === "verified" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-10 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-full bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(Lock, { size: 28, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "Secure connection verified"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-6" }, "Cryptographic handshake complete. Safe to transfer files."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between border border-[#E3E9E6] rounded-xl p-4 mb-7 text-left" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[11px] font-bold uppercase tracking-wide text-[#9AA6A1] mb-0.5" }, role === "send" ? "Sender" : "Receiver"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E]" }, "This device")), /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 16, className: "text-[#0B7A5F]" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-right" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[11px] font-bold uppercase tracking-wide text-[#9AA6A1] mb-0.5" }, role === "send" ? "Receiver" : "Sender"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E]" }, peerLabel))), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: () => setStep("transfer") }, "Continue")), step === "transfer" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(TopBar, { onRestart: reset, label: role === "send" ? "Sending" : "Receiving" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-3 border border-[#E3E9E6] rounded-xl p-3.5 mb-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-9 h-9 rounded-lg bg-[#ECFDF5] flex items-center justify-center shrink-0" }, /* @__PURE__ */ import_react4.default.createElement(FileText, { size: 16, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-w-0" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E] truncate" }, role === "send" ? selectedFile?.name : "Waiting for incoming file\u2026"), role === "send" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64]" }, formatBytes(selectedFile?.size)))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between mb-2" }, /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-xs font-semibold text-[#5B6B64]" }, role === "send" ? "Sending\u2026" : "Receiving\u2026"), /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-xs font-bold text-[#16241E] tabular-nums" }, progress, "%")), /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-full h-2.5 bg-[#E3E9E6] rounded-full overflow-hidden mb-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "h-full bg-[#10B981] rounded-full transition-all duration-150 ease-out", style: { width: `${progress}%` } })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-wrap gap-2" }, /* @__PURE__ */ import_react4.default.createElement("span", { className: "inline-flex items-center gap-1.5 text-[11px] font-semibold bg-[#ECFDF5] text-[#0B7A5F] px-2.5 py-1.5 rounded-full" }, /* @__PURE__ */ import_react4.default.createElement(Lock, { size: 11 }), " Encrypted transfer (E2E)"), /* @__PURE__ */ import_react4.default.createElement("span", { className: "inline-flex items-center gap-1.5 text-[11px] font-semibold bg-[#ECFDF5] text-[#0B7A5F] px-2.5 py-1.5 rounded-full" }, /* @__PURE__ */ import_react4.default.createElement(Wifi, { size: 11 }), " Connection healthy")))), step === "complete" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-10 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-full bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 30, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "File successfully transferred"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-6" }, "Packaged, cryptographically signed, and verified."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border border-[#E3E9E6] rounded-xl p-4 mb-3 text-left" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E] truncate" }, role === "send" ? selectedFile?.name : incomingFile?.name), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, role === "send" ? `${formatBytes(selectedFile?.size)} \xB7 Sent to ${peerLabel}` : `${formatBytes(incomingFile?.size)} \xB7 Received from ${peerLabel}`)), role === "receive" && incomingFile && !incomingFile.error && /* @__PURE__ */ import_react4.default.createElement(
+        ), verifyError && /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs font-semibold text-[#B3261E] mb-3 text-center" }, verifyError), /* @__PURE__ */ import_react4.default.createElement(
+          PrimaryButton,
+          {
+            disabled: codeInput.length !== 6 || !wsReady,
+            onClick: handleVerifyClick
+          },
+          "Verify"
+        ))), step === "warning" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
+          TopBar,
+          {
+            onBack: () => setStep("pairing"),
+            onRestart: reset,
+            label: "Network Check"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#FEF3E2] border border-[#F5D9A8] rounded-2xl p-5 text-center mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-11 h-11 mx-auto mb-3 rounded-full bg-[#FDE8C8] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(TriangleAlert, { size: 20, className: "text-[#A45A00]" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-bold text-[#8A5A00] mb-1.5" }, "Unsafe network detected"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#8A5A00] leading-relaxed" }, "Simulated for this demo \u2014 a real deployment would check actual network conditions. On an open network, nearby devices may be able to see traffic.")), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-start gap-2.5 bg-[#F0F3F1] rounded-xl p-3.5 mb-6" }, /* @__PURE__ */ import_react4.default.createElement(
+          ShieldCheck,
+          {
+            size: 16,
+            className: "text-[#0B7A5F] shrink-0 mt-0.5"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] leading-relaxed" }, "SecureLink still requires device verification and end-to-end encryption regardless \u2014 this warning does not skip that step.")), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: () => setStep("verify") }, "Continue to Device Verification"))), step === "verify" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
+          TopBar,
+          {
+            onBack: () => setStep("pairing"),
+            onRestart: reset,
+            label: "Verify Device"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-14 h-14 mx-auto mb-4 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 24, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "Is this the device you want to connect to?"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-5" }, "Confirm the name and code match what's shown on the other side."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border border-[#E3E9E6] rounded-xl p-4 mb-6 text-left" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E] mb-2" }, peerLabel || "Unknown device"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[11px] font-bold uppercase tracking-wide text-[#5B6B64] mb-1" }, "Verification code"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-2xl font-bold tracking-[0.3em] text-[#16241E] tabular-nums" }, role === "send" ? pairingCode : codeInput)), /* @__PURE__ */ import_react4.default.createElement("div", { className: "space-y-2.5" }, /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: () => setStep("verified") }, "Confirm Device"), /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => setStep("pairing"),
+            className: "w-full py-3 rounded-xl font-semibold text-sm bg-[#FBEAEA] text-[#B3261E] hover:bg-[#F6DADA]"
+          },
+          "Cancel"
+        )))), step === "verified" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-10 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-full bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(Lock, { size: 28, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "Secure connection verified"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-6" }, "Cryptographic handshake complete. Safe to transfer files."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between border border-[#E3E9E6] rounded-xl p-4 mb-7 text-left" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[11px] font-bold uppercase tracking-wide text-[#9AA6A1] mb-0.5" }, role === "send" ? "Sender" : "Receiver"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E]" }, "This device")), /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 16, className: "text-[#0B7A5F]" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-right" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[11px] font-bold uppercase tracking-wide text-[#9AA6A1] mb-0.5" }, role === "send" ? "Receiver" : "Sender"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E]" }, peerLabel))), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: () => setStep("transfer") }, "Continue")), step === "transfer" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
+          TopBar,
+          {
+            onRestart: reset,
+            label: role === "send" ? "Sending" : "Receiving"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-3 border border-[#E3E9E6] rounded-xl p-3.5 mb-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-9 h-9 rounded-lg bg-[#ECFDF5] flex items-center justify-center shrink-0" }, /* @__PURE__ */ import_react4.default.createElement(FileText, { size: 16, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-w-0" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E] truncate" }, role === "send" ? selectedFile?.name : "Waiting for incoming file\u2026"), role === "send" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64]" }, formatBytes(selectedFile?.size)))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between mb-2" }, /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-xs font-semibold text-[#5B6B64]" }, role === "send" ? "Sending\u2026" : "Receiving\u2026"), /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-xs font-bold text-[#16241E] tabular-nums" }, progress, "%")), /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-full h-2.5 bg-[#E3E9E6] rounded-full overflow-hidden mb-5" }, /* @__PURE__ */ import_react4.default.createElement(
+          "div",
+          {
+            className: "h-full bg-[#10B981] rounded-full transition-all duration-150 ease-out",
+            style: { width: `${progress}%` }
+          }
+        )), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-wrap gap-2" }, /* @__PURE__ */ import_react4.default.createElement("span", { className: "inline-flex items-center gap-1.5 text-[11px] font-semibold bg-[#ECFDF5] text-[#0B7A5F] px-2.5 py-1.5 rounded-full" }, /* @__PURE__ */ import_react4.default.createElement(Lock, { size: 11 }), " Encrypted transfer (E2E)"), /* @__PURE__ */ import_react4.default.createElement("span", { className: "inline-flex items-center gap-1.5 text-[11px] font-semibold bg-[#ECFDF5] text-[#0B7A5F] px-2.5 py-1.5 rounded-full" }, /* @__PURE__ */ import_react4.default.createElement(Wifi, { size: 11 }), " Connection healthy")))), step === "complete" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-10 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-full bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 30, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "File successfully transferred"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-6" }, "Packaged, cryptographically signed, and verified."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border border-[#E3E9E6] rounded-xl p-4 mb-3 text-left" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#16241E] truncate" }, role === "send" ? selectedFile?.name : incomingFile?.name), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, role === "send" ? `${formatBytes(selectedFile?.size)} \xB7 Sent to ${peerLabel}` : `${formatBytes(incomingFile?.size)} \xB7 Received from ${peerLabel}`)), role === "receive" && incomingFile && !incomingFile.error && /* @__PURE__ */ import_react4.default.createElement(
           "a",
           {
             href: incomingFile.url,
@@ -24403,7 +24673,14 @@
           },
           /* @__PURE__ */ import_react4.default.createElement(Download, { size: 15 }),
           " Download file"
-        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: `flex items-center gap-1.5 justify-center text-xs font-semibold mb-7 ${role === "receive" && incomingFile && !incomingFile.integrityOk ? "text-[#B3261E]" : "text-[#0B7A5F]"}` }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 13 }), role === "receive" && incomingFile && !incomingFile.integrityOk ? "Integrity check failed \u2014 file may be corrupted" : "Transfer secured"), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: reset }, "Done")));
+        ), /* @__PURE__ */ import_react4.default.createElement(
+          "div",
+          {
+            className: `flex items-center gap-1.5 justify-center text-xs font-semibold mb-7 ${role === "receive" && incomingFile && !incomingFile.integrityOk ? "text-[#B3261E]" : "text-[#0B7A5F]"}`
+          },
+          /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 13 }),
+          role === "receive" && incomingFile && !incomingFile.integrityOk ? "Integrity check failed \u2014 file may be corrupted" : "Transfer secured"
+        ), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: reset }, "Done")));
       }
       (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ import_react4.default.createElement(App, null));
     }
@@ -24474,6 +24751,7 @@ lucide-react/dist/esm/icons/download.mjs:
 lucide-react/dist/esm/icons/file-text.mjs:
 lucide-react/dist/esm/icons/key-round.mjs:
 lucide-react/dist/esm/icons/loader-circle.mjs:
+lucide-react/dist/esm/icons/lock-keyhole.mjs:
 lucide-react/dist/esm/icons/lock.mjs:
 lucide-react/dist/esm/icons/qr-code.mjs:
 lucide-react/dist/esm/icons/rotate-ccw.mjs:
