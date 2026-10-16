@@ -15,6 +15,9 @@ import {
   Download,
   Loader2,
   LockKeyhole,
+  Menu,
+  X,
+  Info,
 } from "lucide-react";
 
 function bufToBase64(buf) {
@@ -155,6 +158,10 @@ function App() {
   const [confirmPin, setConfirmPin] = useState("");
   const [pinSetupError, setPinSetupError] = useState("");
 
+  // --- Splash screen + side nav state ---
+  const [showSplash, setShowSplash] = useState(true);
+  const [navOpen, setNavOpen] = useState(false);
+
   const wsRef = useRef(null);
   const roleRef = useRef(null);
   const cryptoKeyRef = useRef(null);
@@ -168,6 +175,8 @@ function App() {
       setHasPin(true);
       setLocked(true);
     }
+    const splashTimer = setTimeout(() => setShowSplash(false), 1200);
+    return () => clearTimeout(splashTimer);
   }, []);
 
   function animateProgressThen(cb) {
@@ -368,6 +377,23 @@ function App() {
     };
   }, [step]);
 
+  // --- Splash screen (shown briefly on every app load) ---
+  if (showSplash) {
+    return (
+      <PhoneShell>
+        <div className="px-7 pt-20 pb-20 text-center">
+          <div className="w-20 h-20 mx-auto mb-6 rounded-3xl bg-[#ECFDF5] flex items-center justify-center animate-pulse">
+            <ShieldCheck size={38} className="text-[#0B7A5F]" strokeWidth={2} />
+          </div>
+          <h1 className="text-2xl font-bold text-[#16241E] mb-2">SecureLink</h1>
+          <p className="text-xs text-[#5B6B64]">
+            Secure, peer-to-peer file sharing
+          </p>
+        </div>
+      </PhoneShell>
+    );
+  }
+
   // --- Lock screen (shown before anything else if a PIN is set) ---
   if (locked) {
     return (
@@ -410,9 +436,18 @@ function App() {
   }
 
   return (
+    <>
     <PhoneShell>
       {step === "home" && (
-        <div className="px-7 pt-10 pb-8 text-center">
+        <div className="px-7 pt-6 pb-8 text-center">
+          <div className="flex justify-start mb-4">
+            <button
+              onClick={() => setNavOpen((o) => !o)}
+              className="w-8 h-8 flex items-center justify-center rounded-full text-[#5B6B64] hover:bg-[#F0F3F1]"
+            >
+              <Menu size={18} />
+            </button>
+          </div>
           <div className="w-16 h-16 mx-auto mb-5 rounded-2xl bg-[#ECFDF5] flex items-center justify-center">
             <ShieldCheck size={30} className="text-[#0B7A5F]" strokeWidth={2} />
           </div>
@@ -534,6 +569,35 @@ function App() {
             >
               Turn Off App Lock
             </button>
+          </div>
+        </div>
+      )}
+
+      {step === "about" && (
+        <div>
+          <TopBar
+            onBack={() => setStep("home")}
+            onRestart={reset}
+            label="About"
+          />
+          <div className="px-6 pb-7 text-center">
+            <div className="w-14 h-14 mx-auto mb-4 rounded-2xl bg-[#ECFDF5] flex items-center justify-center">
+              <ShieldCheck size={24} className="text-[#0B7A5F]" />
+            </div>
+            <h2 className="text-base font-bold text-[#16241E] mb-1">
+              SecureLink
+            </h2>
+            <p className="text-xs text-[#5B6B64] mb-5">
+              A file-sharing prototype demonstrating resistance to
+              Man-in-the-Middle attacks via device pairing and AES-256-GCM
+              encryption.
+            </p>
+            <div className="border border-[#E3E9E6] rounded-xl p-4 text-left text-xs text-[#5B6B64] space-y-1">
+              <div>
+                <strong className="text-[#16241E]">Group 4</strong> · IT31S4
+              </div>
+              <div>Instructor: Mr. Allan Burgos</div>
+            </div>
           </div>
         </div>
       )}
@@ -894,7 +958,60 @@ function App() {
           <PrimaryButton onClick={reset}>Done</PrimaryButton>
         </div>
       )}
-    </PhoneShell>
+      
+        </PhoneShell>
+
+    {navOpen && (
+      <div className="fixed inset-0 z-50 flex">
+        <div
+          className="absolute inset-0 bg-black/40"
+          onClick={() => setNavOpen(false)}
+        />
+        <div className="relative w-64 h-full bg-white shadow-2xl p-5 flex flex-col">
+          <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center gap-2 font-bold text-[#16241E]">
+              <ShieldCheck size={18} className="text-[#0B7A5F]" /> SecureLink
+            </div>
+            <button onClick={() => setNavOpen(false)} className="w-8 h-8 flex items-center justify-center rounded-full text-[#5B6B64] hover:bg-[#F0F3F1]">
+              <X size={18} />
+            </button>
+          </div>
+          <nav className="flex flex-col gap-1">
+            <button
+              onClick={() => { setStep("home"); setNavOpen(false); }}
+              className="text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+            >
+              <ShieldCheck size={15} className="text-[#0B7A5F]" /> Home
+            </button>
+            <button
+              onClick={() => { chooseSend(); setNavOpen(false); }}
+              className="text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+            >
+              <Upload size={15} className="text-[#0B7A5F]" /> Send File
+            </button>
+            <button
+              onClick={() => { chooseReceive(); setNavOpen(false); }}
+              className="text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+            >
+              <Download size={15} className="text-[#0B7A5F]" /> Receive File
+            </button>
+            <button
+              onClick={() => { setStep(hasPin ? "pinManage" : "pinSetup"); setNavOpen(false); }}
+              className="text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+            >
+              <LockKeyhole size={15} className="text-[#0B7A5F]" /> App Lock
+            </button>
+            <button
+              onClick={() => { setStep("about"); setNavOpen(false); }}
+              className="text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+            >
+              <Info size={15} className="text-[#0B7A5F]" /> About
+            </button>
+          </nav>
+        </div>
+      </div>
+    )}
+    </>
   );
 }
 

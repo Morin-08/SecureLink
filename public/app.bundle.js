@@ -23930,12 +23930,31 @@
     }
   });
 
+  // node_modules/lucide-react/dist/esm/icons/info.mjs
+  var __iconData5, Info;
+  var init_info = __esm({
+    "node_modules/lucide-react/dist/esm/icons/info.mjs"() {
+      init_createLucideIcon();
+      __iconData5 = {
+        name: "info",
+        size: 24,
+        node: [
+          ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+          ["path", { d: "M12 16v-4", key: "1dtifu" }],
+          ["path", { d: "M12 8h.01", key: "e9boi3" }]
+        ]
+      };
+      __iconData5.node;
+      Info = createLucideIcon(__iconData5);
+    }
+  });
+
   // node_modules/lucide-react/dist/esm/icons/key-round.mjs
-  var __iconData5, KeyRound;
+  var __iconData6, KeyRound;
   var init_key_round = __esm({
     "node_modules/lucide-react/dist/esm/icons/key-round.mjs"() {
       init_createLucideIcon();
-      __iconData5 = {
+      __iconData6 = {
         name: "key-round",
         size: 24,
         node: [
@@ -23949,33 +23968,33 @@
           ["circle", { cx: "16.5", cy: "7.5", r: ".5", fill: "currentColor", key: "w0ekpg" }]
         ]
       };
-      __iconData5.node;
-      KeyRound = createLucideIcon(__iconData5);
+      __iconData6.node;
+      KeyRound = createLucideIcon(__iconData6);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/loader-circle.mjs
-  var __iconData6, LoaderCircle;
+  var __iconData7, LoaderCircle;
   var init_loader_circle = __esm({
     "node_modules/lucide-react/dist/esm/icons/loader-circle.mjs"() {
       init_createLucideIcon();
-      __iconData6 = {
+      __iconData7 = {
         name: "loader-circle",
         size: 24,
         node: [["path", { d: "M21 12a9 9 0 1 1-6.219-8.56", key: "13zald" }]],
         aliases: ["loader-2"]
       };
-      __iconData6.node;
-      LoaderCircle = createLucideIcon(__iconData6);
+      __iconData7.node;
+      LoaderCircle = createLucideIcon(__iconData7);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/lock-keyhole.mjs
-  var __iconData7, LockKeyhole;
+  var __iconData8, LockKeyhole;
   var init_lock_keyhole = __esm({
     "node_modules/lucide-react/dist/esm/icons/lock-keyhole.mjs"() {
       init_createLucideIcon();
-      __iconData7 = {
+      __iconData8 = {
         name: "lock-keyhole",
         size: 24,
         node: [
@@ -23984,17 +24003,17 @@
           ["path", { d: "M7 10V7a5 5 0 0 1 10 0v3", key: "1pqi11" }]
         ]
       };
-      __iconData7.node;
-      LockKeyhole = createLucideIcon(__iconData7);
+      __iconData8.node;
+      LockKeyhole = createLucideIcon(__iconData8);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/lock.mjs
-  var __iconData8, Lock;
+  var __iconData9, Lock;
   var init_lock = __esm({
     "node_modules/lucide-react/dist/esm/icons/lock.mjs"() {
       init_createLucideIcon();
-      __iconData8 = {
+      __iconData9 = {
         name: "lock",
         size: 24,
         node: [
@@ -24002,17 +24021,36 @@
           ["path", { d: "M7 11V7a5 5 0 0 1 10 0v4", key: "fwvmzm" }]
         ]
       };
-      __iconData8.node;
-      Lock = createLucideIcon(__iconData8);
+      __iconData9.node;
+      Lock = createLucideIcon(__iconData9);
+    }
+  });
+
+  // node_modules/lucide-react/dist/esm/icons/menu.mjs
+  var __iconData10, Menu;
+  var init_menu = __esm({
+    "node_modules/lucide-react/dist/esm/icons/menu.mjs"() {
+      init_createLucideIcon();
+      __iconData10 = {
+        name: "menu",
+        size: 24,
+        node: [
+          ["path", { d: "M4 5h16", key: "1tepv9" }],
+          ["path", { d: "M4 12h16", key: "1lakjw" }],
+          ["path", { d: "M4 19h16", key: "1djgab" }]
+        ]
+      };
+      __iconData10.node;
+      Menu = createLucideIcon(__iconData10);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/qr-code.mjs
-  var __iconData9, QrCode;
+  var __iconData11, QrCode;
   var init_qr_code = __esm({
     "node_modules/lucide-react/dist/esm/icons/qr-code.mjs"() {
       init_createLucideIcon();
-      __iconData9 = {
+      __iconData11 = {
         name: "qr-code",
         size: 24,
         node: [
@@ -24030,17 +24068,17 @@
           ["path", { d: "M12 21v-1", key: "1880an" }]
         ]
       };
-      __iconData9.node;
-      QrCode = createLucideIcon(__iconData9);
+      __iconData11.node;
+      QrCode = createLucideIcon(__iconData11);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/rotate-ccw.mjs
-  var __iconData10, RotateCcw;
+  var __iconData12, RotateCcw;
   var init_rotate_ccw = __esm({
     "node_modules/lucide-react/dist/esm/icons/rotate-ccw.mjs"() {
       init_createLucideIcon();
-      __iconData10 = {
+      __iconData12 = {
         name: "rotate-ccw",
         size: 24,
         node: [
@@ -24048,17 +24086,17 @@
           ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
         ]
       };
-      __iconData10.node;
-      RotateCcw = createLucideIcon(__iconData10);
+      __iconData12.node;
+      RotateCcw = createLucideIcon(__iconData12);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/shield-check.mjs
-  var __iconData11, ShieldCheck;
+  var __iconData13, ShieldCheck;
   var init_shield_check = __esm({
     "node_modules/lucide-react/dist/esm/icons/shield-check.mjs"() {
       init_createLucideIcon();
-      __iconData11 = {
+      __iconData13 = {
         name: "shield-check",
         size: 24,
         node: [
@@ -24072,17 +24110,17 @@
           ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
         ]
       };
-      __iconData11.node;
-      ShieldCheck = createLucideIcon(__iconData11);
+      __iconData13.node;
+      ShieldCheck = createLucideIcon(__iconData13);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/triangle-alert.mjs
-  var __iconData12, TriangleAlert;
+  var __iconData14, TriangleAlert;
   var init_triangle_alert = __esm({
     "node_modules/lucide-react/dist/esm/icons/triangle-alert.mjs"() {
       init_createLucideIcon();
-      __iconData12 = {
+      __iconData14 = {
         name: "triangle-alert",
         size: 24,
         node: [
@@ -24098,17 +24136,17 @@
         ],
         aliases: ["alert-triangle"]
       };
-      __iconData12.node;
-      TriangleAlert = createLucideIcon(__iconData12);
+      __iconData14.node;
+      TriangleAlert = createLucideIcon(__iconData14);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/upload.mjs
-  var __iconData13, Upload;
+  var __iconData15, Upload;
   var init_upload = __esm({
     "node_modules/lucide-react/dist/esm/icons/upload.mjs"() {
       init_createLucideIcon();
-      __iconData13 = {
+      __iconData15 = {
         name: "upload",
         size: 24,
         node: [
@@ -24117,17 +24155,17 @@
           ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }]
         ]
       };
-      __iconData13.node;
-      Upload = createLucideIcon(__iconData13);
+      __iconData15.node;
+      Upload = createLucideIcon(__iconData15);
     }
   });
 
   // node_modules/lucide-react/dist/esm/icons/wifi.mjs
-  var __iconData14, Wifi;
+  var __iconData16, Wifi;
   var init_wifi = __esm({
     "node_modules/lucide-react/dist/esm/icons/wifi.mjs"() {
       init_createLucideIcon();
-      __iconData14 = {
+      __iconData16 = {
         name: "wifi",
         size: 24,
         node: [
@@ -24137,8 +24175,26 @@
           ["path", { d: "M8.5 16.429a5 5 0 0 1 7 0", key: "1bycff" }]
         ]
       };
-      __iconData14.node;
-      Wifi = createLucideIcon(__iconData14);
+      __iconData16.node;
+      Wifi = createLucideIcon(__iconData16);
+    }
+  });
+
+  // node_modules/lucide-react/dist/esm/icons/x.mjs
+  var __iconData17, X;
+  var init_x = __esm({
+    "node_modules/lucide-react/dist/esm/icons/x.mjs"() {
+      init_createLucideIcon();
+      __iconData17 = {
+        name: "x",
+        size: 24,
+        node: [
+          ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
+          ["path", { d: "m6 6 12 12", key: "d8bk6v" }]
+        ]
+      };
+      __iconData17.node;
+      X = createLucideIcon(__iconData17);
     }
   });
 
@@ -24152,14 +24208,17 @@
       init_arrow_left();
       init_download();
       init_file_text();
+      init_info();
       init_key_round();
       init_lock_keyhole();
       init_lock();
+      init_menu();
       init_qr_code();
       init_rotate_ccw();
       init_shield_check();
       init_upload();
       init_wifi();
+      init_x();
     }
   });
 
@@ -24282,6 +24341,8 @@
         const [newPin, setNewPin] = (0, import_react4.useState)("");
         const [confirmPin, setConfirmPin] = (0, import_react4.useState)("");
         const [pinSetupError, setPinSetupError] = (0, import_react4.useState)("");
+        const [showSplash, setShowSplash] = (0, import_react4.useState)(true);
+        const [navOpen, setNavOpen] = (0, import_react4.useState)(false);
         const wsRef = (0, import_react4.useRef)(null);
         const roleRef = (0, import_react4.useRef)(null);
         const cryptoKeyRef = (0, import_react4.useRef)(null);
@@ -24294,6 +24355,8 @@
             setHasPin(true);
             setLocked(true);
           }
+          const splashTimer = setTimeout(() => setShowSplash(false), 1200);
+          return () => clearTimeout(splashTimer);
         }, []);
         function animateProgressThen(cb) {
           setProgress(0);
@@ -24480,6 +24543,9 @@
             cancelled = true;
           };
         }, [step]);
+        if (showSplash) {
+          return /* @__PURE__ */ import_react4.default.createElement(PhoneShell, null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-20 pb-20 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-20 h-20 mx-auto mb-6 rounded-3xl bg-[#ECFDF5] flex items-center justify-center animate-pulse" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 38, className: "text-[#0B7A5F]", strokeWidth: 2 })), /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-2xl font-bold text-[#16241E] mb-2" }, "SecureLink"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64]" }, "Secure, peer-to-peer file sharing")));
+        }
         if (locked) {
           return /* @__PURE__ */ import_react4.default.createElement(PhoneShell, null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-10 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(LockKeyhole, { size: 30, className: "text-[#0B7A5F]", strokeWidth: 2 })), /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-xl font-bold text-[#16241E] mb-2" }, "SecureLink Locked"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#5B6B64] leading-relaxed mb-6" }, "Enter your 4-digit PIN to continue."), /* @__PURE__ */ import_react4.default.createElement(
             "input",
@@ -24501,7 +24567,14 @@
             "Unlock"
           )));
         }
-        return /* @__PURE__ */ import_react4.default.createElement(PhoneShell, null, step === "home" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-10 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 30, className: "text-[#0B7A5F]", strokeWidth: 2 })), /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-xl font-bold text-[#16241E] mb-2" }, "SecureLink"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#5B6B64] leading-relaxed mb-6" }, "Direct, peer-to-peer file sharing over shared Wi-Fi. Every transfer is paired and encrypted."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-left space-y-3 mb-7" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[13px] font-bold text-[#16241E] flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(KeyRound, { size: 13, className: "text-[#0B7A5F]" }), " Device pairing required"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, "Verified with a real 6-digit code before any file moves.")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[13px] font-bold text-[#16241E] flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(Lock, { size: 13, className: "text-[#0B7A5F]" }), " Zero-fallback encryption"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, "AES-256-GCM, derived from the pairing code, verified with SHA-256."))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "space-y-2.5" }, /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: chooseSend }, "Send File"), /* @__PURE__ */ import_react4.default.createElement(SecondaryButton, { onClick: chooseReceive }, "Receive File")), /* @__PURE__ */ import_react4.default.createElement(
+        return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(PhoneShell, null, step === "home" && /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-7 pt-6 pb-8 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex justify-start mb-4" }, /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => setNavOpen((o) => !o),
+            className: "w-8 h-8 flex items-center justify-center rounded-full text-[#5B6B64] hover:bg-[#F0F3F1]"
+          },
+          /* @__PURE__ */ import_react4.default.createElement(Menu, { size: 18 })
+        )), /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-16 h-16 mx-auto mb-5 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 30, className: "text-[#0B7A5F]", strokeWidth: 2 })), /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-xl font-bold text-[#16241E] mb-2" }, "SecureLink"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#5B6B64] leading-relaxed mb-6" }, "Direct, peer-to-peer file sharing over shared Wi-Fi. Every transfer is paired and encrypted."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-left space-y-3 mb-7" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[13px] font-bold text-[#16241E] flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(KeyRound, { size: 13, className: "text-[#0B7A5F]" }), " Device pairing required"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, "Verified with a real 6-digit code before any file moves.")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[13px] font-bold text-[#16241E] flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(Lock, { size: 13, className: "text-[#0B7A5F]" }), " Zero-fallback encryption"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#5B6B64] mt-0.5" }, "AES-256-GCM, derived from the pairing code, verified with SHA-256."))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "space-y-2.5" }, /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: chooseSend }, "Send File"), /* @__PURE__ */ import_react4.default.createElement(SecondaryButton, { onClick: chooseReceive }, "Receive File")), /* @__PURE__ */ import_react4.default.createElement(
           "button",
           {
             onClick: () => setStep(hasPin ? "pinManage" : "pinSetup"),
@@ -24556,7 +24629,14 @@
             className: "w-full py-3 rounded-xl font-semibold text-sm bg-[#FBEAEA] text-[#B3261E] hover:bg-[#F6DADA]"
           },
           "Turn Off App Lock"
-        ))), step === "send" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
+        ))), step === "about" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
+          TopBar,
+          {
+            onBack: () => setStep("home"),
+            onRestart: reset,
+            label: "About"
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "px-6 pb-7 text-center" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-14 h-14 mx-auto mb-4 rounded-2xl bg-[#ECFDF5] flex items-center justify-center" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 24, className: "text-[#0B7A5F]" })), /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-base font-bold text-[#16241E] mb-1" }, "SecureLink"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#5B6B64] mb-5" }, "A file-sharing prototype demonstrating resistance to Man-in-the-Middle attacks via device pairing and AES-256-GCM encryption."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border border-[#E3E9E6] rounded-xl p-4 text-left text-xs text-[#5B6B64] space-y-1" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("strong", { className: "text-[#16241E]" }, "Group 4"), " \xB7 IT31S4"), /* @__PURE__ */ import_react4.default.createElement("div", null, "Instructor: Mr. Allan Burgos")))), step === "send" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement(
           TopBar,
           {
             onBack: () => setStep("home"),
@@ -24680,7 +24760,68 @@
           },
           /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 13 }),
           role === "receive" && incomingFile && !incomingFile.integrityOk ? "Integrity check failed \u2014 file may be corrupted" : "Transfer secured"
-        ), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: reset }, "Done")));
+        ), /* @__PURE__ */ import_react4.default.createElement(PrimaryButton, { onClick: reset }, "Done"))), navOpen && /* @__PURE__ */ import_react4.default.createElement("div", { className: "fixed inset-0 z-50 flex" }, /* @__PURE__ */ import_react4.default.createElement(
+          "div",
+          {
+            className: "absolute inset-0 bg-black/40",
+            onClick: () => setNavOpen(false)
+          }
+        ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "relative w-64 h-full bg-white shadow-2xl p-5 flex flex-col" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-2 font-bold text-[#16241E]" }, /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 18, className: "text-[#0B7A5F]" }), " SecureLink"), /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => setNavOpen(false), className: "w-8 h-8 flex items-center justify-center rounded-full text-[#5B6B64] hover:bg-[#F0F3F1]" }, /* @__PURE__ */ import_react4.default.createElement(X, { size: 18 }))), /* @__PURE__ */ import_react4.default.createElement("nav", { className: "flex flex-col gap-1" }, /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => {
+              setStep("home");
+              setNavOpen(false);
+            },
+            className: "text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+          },
+          /* @__PURE__ */ import_react4.default.createElement(ShieldCheck, { size: 15, className: "text-[#0B7A5F]" }),
+          " Home"
+        ), /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => {
+              chooseSend();
+              setNavOpen(false);
+            },
+            className: "text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+          },
+          /* @__PURE__ */ import_react4.default.createElement(Upload, { size: 15, className: "text-[#0B7A5F]" }),
+          " Send File"
+        ), /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => {
+              chooseReceive();
+              setNavOpen(false);
+            },
+            className: "text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+          },
+          /* @__PURE__ */ import_react4.default.createElement(Download, { size: 15, className: "text-[#0B7A5F]" }),
+          " Receive File"
+        ), /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => {
+              setStep(hasPin ? "pinManage" : "pinSetup");
+              setNavOpen(false);
+            },
+            className: "text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+          },
+          /* @__PURE__ */ import_react4.default.createElement(LockKeyhole, { size: 15, className: "text-[#0B7A5F]" }),
+          " App Lock"
+        ), /* @__PURE__ */ import_react4.default.createElement(
+          "button",
+          {
+            onClick: () => {
+              setStep("about");
+              setNavOpen(false);
+            },
+            className: "text-left px-3 py-2.5 rounded-lg text-sm font-semibold text-[#16241E] hover:bg-[#F0F3F1] flex items-center gap-2"
+          },
+          /* @__PURE__ */ import_react4.default.createElement(Info, { size: 15, className: "text-[#0B7A5F]" }),
+          " About"
+        )))));
       }
       (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ import_react4.default.createElement(App, null));
     }
@@ -24749,16 +24890,19 @@ lucide-react/dist/esm/icons/arrow-left.mjs:
 lucide-react/dist/esm/icons/circle-check.mjs:
 lucide-react/dist/esm/icons/download.mjs:
 lucide-react/dist/esm/icons/file-text.mjs:
+lucide-react/dist/esm/icons/info.mjs:
 lucide-react/dist/esm/icons/key-round.mjs:
 lucide-react/dist/esm/icons/loader-circle.mjs:
 lucide-react/dist/esm/icons/lock-keyhole.mjs:
 lucide-react/dist/esm/icons/lock.mjs:
+lucide-react/dist/esm/icons/menu.mjs:
 lucide-react/dist/esm/icons/qr-code.mjs:
 lucide-react/dist/esm/icons/rotate-ccw.mjs:
 lucide-react/dist/esm/icons/shield-check.mjs:
 lucide-react/dist/esm/icons/triangle-alert.mjs:
 lucide-react/dist/esm/icons/upload.mjs:
 lucide-react/dist/esm/icons/wifi.mjs:
+lucide-react/dist/esm/icons/x.mjs:
 lucide-react/dist/esm/lucide-react.mjs:
   (**
    * @license lucide-react v1.45.0 - ISC
