@@ -1,43 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head><title>SecureLink - INSECURE DEMO (Receive)</title></head>
-<body>
-  <h1 style="color:red;">⚠ Insecure Demo Receiver (no encryption)</h1>
-  <p id="status">Connecting...</p>
-  <div id="pairingForm">
-    <input type="text" id="codeBox" placeholder="Enter pairing code">
-    <button id="verifyBtn">Verify</button>
-  </div>
-  <ul id="messages"></ul>
+  <head>
+    <title>SecureLink - INSECURE DEMO (Receive)</title>
+  </head>
+  <body>
+    <div
+      style="
+        background: #fbeaea;
+        border: 2px solid #e5484d;
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin: 0 0 20px;
+        font-size: 13px;
+        color: #8a1c1c;
+        max-width: 420px;
+      "
+    >
+      ⚠ <strong>VULNERABLE BASELINE DEMO — NOT PART OF SECURELINK</strong><br />
+      This page sends files with <strong>no encryption</strong> on purpose. It
+      exists only to capture "before" evidence in Wireshark showing a plaintext
+      file transfer, for comparison against SecureLink's AES-256-GCM encrypted
+      transfer. Do not use this for real file sharing.
+    </div>
 
-  <script>
-    const ws = new WebSocket(`ws://${location.host}`);
+    <h1 style="color: red">⚠ Insecure Demo Receiver (no encryption)</h1>
+    <p id="status">Connecting...</p>
+    <div id="pairingForm">
+      <input type="text" id="codeBox" placeholder="Enter pairing code" />
+      <button id="verifyBtn">Verify</button>
+    </div>
+    <ul id="messages"></ul>
 
-    ws.onopen = () => {
-      document.getElementById('status').textContent = 'Connected! Enter the pairing code.';
-    };
+    <script>
+      const ws = new WebSocket(`ws://${location.host}`);
 
-    ws.onmessage = (event) => {
-      const data = JSON.parse(event.data);
-      if (data.type === 'verified') {
-        document.getElementById('status').textContent = data.success ? 'Verified!' : 'Wrong code';
-        if (data.success) document.getElementById('pairingForm').style.display = 'none';
-      }
-      if (data.type === 'file') {
-        const li = document.createElement('li');
-        const link = document.createElement('a');
-        link.href = `data:application/octet-stream;base64,${data.data}`;
-        link.download = data.filename;
-        link.textContent = `Download: ${data.filename}`;
-        li.appendChild(link);
-        document.getElementById('messages').appendChild(li);
-      }
-    };
+      ws.onopen = () => {
+        document.getElementById("status").textContent =
+          "Connected! Enter the pairing code.";
+      };
 
-    document.getElementById('verifyBtn').addEventListener('click', () => {
-      const code = document.getElementById('codeBox').value;
-      ws.send(JSON.stringify({ type: 'verify-code', code }));
-    });
-  </script>
-</body>
+      ws.onmessage = (event) => {
+        const data = JSON.parse(event.data);
+        if (data.type === "verified") {
+          document.getElementById("status").textContent = data.success
+            ? "Verified!"
+            : "Wrong code";
+          if (data.success)
+            document.getElementById("pairingForm").style.display = "none";
+        }
+        if (data.type === "file") {
+          const li = document.createElement("li");
+          const link = document.createElement("a");
+          link.href = `data:application/octet-stream;base64,${data.data}`;
+          link.download = data.filename;
+          link.textContent = `Download: ${data.filename}`;
+          li.appendChild(link);
+          document.getElementById("messages").appendChild(li);
+        }
+      };
+
+      document.getElementById("verifyBtn").addEventListener("click", () => {
+        const code = document.getElementById("codeBox").value;
+        ws.send(JSON.stringify({ type: "verify-code", code }));
+      });
+    </script>
+  </body>
 </html>

@@ -1,48 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head><title>SecureLink - INSECURE DEMO (Send)</title></head>
-<body>
-  <h1 style="color:red;">⚠ Insecure Demo Sender (no encryption)</h1>
-  <p id="status">Connecting...</p>
-  <p>Pairing code: <strong id="code">...</strong></p>
-  <input type="file" id="fileInput">
-  <button id="sendFileBtn">Send File (Plaintext)</button>
-  <p id="fileStatus"></p>
+  <head>
+    <title>SecureLink - INSECURE DEMO (Send)</title>
+  </head>
+  <body>
+    <div
+      style="
+        background: #fbeaea;
+        border: 2px solid #e5484d;
+        border-radius: 12px;
+        padding: 14px 18px;
+        margin: 0 0 20px;
+        font-size: 13px;
+        color: #8a1c1c;
+        max-width: 420px;
+      "
+    >
+      ⚠ <strong>VULNERABLE BASELINE DEMO — NOT PART OF SECURELINK</strong><br />
+      This page sends files with <strong>no encryption</strong> on purpose. It
+      exists only to capture "before" evidence in Wireshark showing a plaintext
+      file transfer, for comparison against SecureLink's AES-256-GCM encrypted
+      transfer. Do not use this for real file sharing.
+    </div>
 
-  <script>
-    const ws = new WebSocket(`ws://${location.host}`);
+    <h1 style="color: red">⚠ Insecure Demo Sender (no encryption)</h1>
+    <p id="status">Connecting...</p>
+    <p>Pairing code: <strong id="code">...</strong></p>
+    <input type="file" id="fileInput" />
+    <button id="sendFileBtn">Send File (Plaintext)</button>
+    <p id="fileStatus"></p>
 
-    ws.onopen = () => {
-      document.getElementById('status').textContent = 'Connected!';
-      ws.send(JSON.stringify({ type: 'start-pairing' }));
-    };
+    <script>
+      const ws = new WebSocket(`ws://${location.host}`);
 
-    ws.onmessage = (event) => {
-      const data = JSON.parse(event.data);
-      if (data.type === 'pairing-code') {
-        document.getElementById('code').textContent = data.code;
-      }
-    };
-
-    document.getElementById('sendFileBtn').addEventListener('click', () => {
-      const fileInput = document.getElementById('fileInput');
-      const file = fileInput.files[0];
-      if (!file) return;
-
-      const reader = new FileReader();
-      reader.onload = () => {
-        const base64Data = reader.result.split(',')[1];
-        ws.send(JSON.stringify({
-          type: 'file',
-          filename: file.name,
-          data: base64Data,
-          iv: '',
-          hash: ''
-        }));
-        document.getElementById('fileStatus').textContent = `Sent (plaintext): ${file.name}`;
+      ws.onopen = () => {
+        document.getElementById("status").textContent = "Connected!";
+        ws.send(JSON.stringify({ type: "start-pairing" }));
       };
-      reader.readAsDataURL(file);
-    });
-  </script>
-</body>
+
+      ws.onmessage = (event) => {
+        const data = JSON.parse(event.data);
+        if (data.type === "pairing-code") {
+          document.getElementById("code").textContent = data.code;
+        }
+      };
+
+      document.getElementById("sendFileBtn").addEventListener("click", () => {
+        const fileInput = document.getElementById("fileInput");
+        const file = fileInput.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = () => {
+          const base64Data = reader.result.split(",")[1];
+          ws.send(
+            JSON.stringify({
+              type: "file",
+              filename: file.name,
+              data: base64Data,
+              iv: "",
+              hash: "",
+            }),
+          );
+          document.getElementById("fileStatus").textContent =
+            `Sent (plaintext): ${file.name}`;
+        };
+        reader.readAsDataURL(file);
+      });
+    </script>
+  </body>
 </html>
